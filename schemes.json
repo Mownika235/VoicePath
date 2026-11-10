@@ -1,0 +1,21 @@
+
+[
+  {
+    "scheme_name": "Post-Matric Scholarship for Students with Disabilities",
+    "category": "education",
+    "minimum_disability_percentage": 40,
+    "requires_student": true,
+    "requires_udid": false,
+    "official_source": "https://depwd.gov.in/en/scholarship-post-matric/",
+    "application_portal": "https://scholarships.gov.in/"
+  },
+  {
+    "scheme_name": "ADIP Scheme - Assistance to Persons with Disabilities for Purchase/Fitting of Aids and Appliances",
+    "category": "assistive_devices",
+    "minimum_disability_percentage": 40,
+    "requires_student": false,
+    "requires_udid": false,
+    "official_source": "https://depwd.gov.in/en/adip-scheme/",
+    "application_portal": "https://adip.depwd.gov.in/"
+  }
+]

@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoicePath - Government Benefits Navigator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>VoicePath</h1>
+        <p>Your voice-first guide to government benefits in India</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to VoicePath</h2>
+            <p>Speak in Tamil or English. I'll ask questions and help find schemes that may match your needs.</p>
+        </section>
+
+        <section class="voice-section">
+            <h2>Talk to VoicePath</h2>
+
+            <label for="voiceLanguage">Choose your language:</label>
+            <select id="voiceLanguage">
+                <option value="ta-IN">தமிழ் (Tamil)</option>
+                <option value="en-IN">English</option>
+            </select>
+
+            <p id="voiceStatus" aria-live="polite">
+                Press the button to start your voice profile.
+            </p>
+
+            <button type="button" id="startVoiceBtn">
+                🎤 Start Speaking
+            </button>
+
+            <button type="button" id="stopVoiceBtn">
+                Stop
+            </button>
+
+            <h3>What VoicePath heard:</h3>
+            <p id="voiceTranscript" aria-live="polite">Your spoken answers will appear here.</p>
+        </section>
+
+        <section id="results" aria-live="polite"></section>
+
+        <p class="privacy">
+            Your details are sent to this local prototype for matching.
+            They are not saved in a database by this version.
+            Results are preliminary, not official eligibility decisions.
+        </p>
+    </main>
+
+    <footer>
+        <p>VoicePath | Accessible Benefits Navigator</p>
+        <p>Always verify eligibility with official government authorities.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

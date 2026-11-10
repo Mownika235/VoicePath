@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f7fb;
+    color: #243247;
+    line-height: 1.6;
+}
+
+header {
+    background: #153e65;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+main {
+    width: 90%;
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px #00000012;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #aab7c4;
+    border-radius: 6px;
+    font-size: 16px;
+    background: white;
+}
+
+input:focus, select:focus, button:focus {
+    outline: 3px solid #f2b544;
+    outline-offset: 2px;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 7px;
+    background: #1769aa;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104d80;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+.privacy {
+    font-size: 14px;
+    color: #536579;
+    margin: 15px 4px;
+}
+
+#results {
+    margin-top: 25px;
+}
+
+.result-card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    border-left: 5px solid #1769aa;
+}
+
+.result-card h3 {
+    margin-top: 0;
+}
+
+.result-card a {
+    display: inline-block;
+    margin: 8px 12px 0 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #536579;
+    font-size: 14px;
+}
+
+@media (max-width: 480px) {
+    main {
+        width: 94%;
+    }
+
+    form {
+        padding: 17px;
+    }
+}

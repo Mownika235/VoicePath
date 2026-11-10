@@ -1,0 +1,24 @@
+
+[
+  {
+    "id": 1,
+    "name": "ADIP Scheme",
+    "category": "assistive_devices",
+    "minimum_disability_percentage": 40,
+    "income_limit_monthly": 30000,
+    "requires_udid": true,
+    "official_source": "https://depwd.gov.in/en/adip-scheme/",
+    "application_portal": "https://adip.depwd.gov.in/"
+  },
+  {
+    "id": 2,
+    "name": "Post-Matric Scholarship for Students with Disabilities",
+    "category": "education",
+    "minimum_disability_percentage": 40,
+    "income_limit_annual": 250000,
+    "requires_udid": true,
+    "requires_student": true,
+    "official_source": "https://depwd.gov.in/en/scholarship-post-matric/",
+    "application_portal": "https://scholarships.gov.in/"
+  }
+]
