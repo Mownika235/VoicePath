@@ -4,59 +4,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoicePath - Government Benefits Navigator</title>
+    <meta name="theme-color" content="#071B2C">
+    <title>VoicePath | Smart Benefits Navigator</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-    <header>
-        <h1>VoicePath</h1>
-        <p>Your voice-first guide to government benefits in India</p>
+    <header class="topbar">
+        <div class="brand">
+            <div class="brand-icon">V</div>
+            <div>
+                <h1>VoicePath<span>.</span></h1>
+                <small>SMART BENEFITS NAVIGATOR</small>
+            </div>
+        </div>
+        <div class="header-tag">
+            <span class="status-dot"></span>
+            VOICE ASSISTANT
+        </div>
     </header>
 
     <main>
-        <section class="intro">
-            <h2>Welcome to VoicePath</h2>
-            <p>Speak in Tamil or English. I'll ask questions and help find schemes that may match your needs.</p>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">✦ ACCESS MADE SIMPLE</span>
+                <h2>Your benefits.<br>
+                    <span>Your voice. Your path.</span>
+                </h2>
+                <p>
+                    Discover government and social support benefits
+                    through a simple voice conversation in Tamil or English.
+                </p>
+                <div class="hero-points">
+                    <span>✓ Easy to use</span>
+                    <span>✓ Multilingual</span>
+                    <span>✓ Voice powered</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="voice-orb">
+                    <span>🎙️</span>
+                </div>
+                <div class="floating-label">Your voice matters</div>
+            </div>
         </section>
 
-        <section class="voice-section">
-            <h2>Talk to VoicePath</h2>
+        <section class="workspace">
+            <div class="section-heading">
+                <span class="eyebrow">YOUR PERSONAL ASSISTANT</span>
+                <h2>Let's find what you need.</h2>
+                <p>Choose your language and start speaking.</p>
+            </div>
 
-            <label for="voiceLanguage">Choose your language:</label>
-            <select id="voiceLanguage">
-                <option value="ta-IN">தமிழ் (Tamil)</option>
-                <option value="en-IN">English</option>
-            </select>
+            <div class="voice-card">
+                <div class="card-top">
+                    <div class="card-icon">◉</div>
+                    <div>
+                        <h3>Talk to VoicePath</h3>
+                        <p>Your conversation starts here</p>
+                    </div>
+                    <span class="live-label">● READY</span>
+                </div>
 
-            <p id="voiceStatus" aria-live="polite">
-                Press the button to start your voice profile.
-            </p>
+                <div class="language-area">
+                    <label for="voiceLanguage">SELECT YOUR LANGUAGE</label>
+                   <select id="voiceLanguage">
+    <option value="ta-IN">தமிழ் (Tamil)</option>
+    <option value="en-IN">English</option>
+    <option value="ar-AE">العربية (Arabic)</option>
+</select>
+                </div>
 
-            <button type="button" id="startVoiceBtn">
-                🎤 Start Speaking
-            </button>
+                <div class="voice-center">
+                    <div class="mic-decoration">🎤</div>
+                    <p id="voiceStatus" aria-live="polite">
+                        Press the button below to start your voice profile.
+                    </p>
+                    <div class="voice-actions">
+                        <button type="button" id="startVoiceBtn">
+                            🎙 Start Speaking
+                        </button>
+                        <button type="button" id="stopVoiceBtn">
+                            Stop
+                        </button>
+                    </div>
+                </div>
 
-            <button type="button" id="stopVoiceBtn">
-                Stop
-            </button>
-
-            <h3>What VoicePath heard:</h3>
-            <p id="voiceTranscript" aria-live="polite">Your spoken answers will appear here.</p>
+                <div class="transcript-area">
+                    <h3>What VoicePath heard</h3>
+                    <p id="voiceTranscript" aria-live="polite">
+                        Your spoken answers will appear here...
+                    </p>
+                </div>
+            </div>
         </section>
 
         <section id="results" aria-live="polite"></section>
 
-        <p class="privacy">
-            Your details are sent to this local prototype for matching.
-            They are not saved in a database by this version.
-            Results are preliminary, not official eligibility decisions.
-        </p>
+        <section class="privacy-card">
+            <span class="privacy-icon">🔒</span>
+            <div>
+                <h3>Your privacy matters</h3>
+                <p>
+                    Your details are sent to this local prototype for matching.
+                    They are not saved in a database by this version.
+                    Results are preliminary and are not official eligibility decisions.
+                </p>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>VoicePath | Accessible Benefits Navigator</p>
-        <p>Always verify eligibility with official government authorities.</p>
+        <h3>VoicePath<span>.</span></h3>
+        <p>Making benefits information easier to access through voice.</p>
+        <small>Always verify eligibility with official government authorities.</small>
     </footer>
 
     <script src="/script.js"></script>
