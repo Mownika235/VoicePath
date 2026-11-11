@@ -1,19 +1,25 @@
-﻿# VoicePath – Voice-Based Benefits Navigator
+﻿@'
+# 🎙️ VoicePath – Voice-Based Benefits Navigator
 
-A voice-first benefits navigation prototype designed for UAE residents, supporting Tamil and English.
+VoicePath is a voice-first benefits navigation prototype designed for UAE residents. It aims to make information about government and social support benefits easier to access through simple conversations in Tamil and English.
 
-## Problem Statement
-Finding relevant government benefits and understanding eligibility requirements can be difficult due to language barriers and complex online portals.
+## 🎯 Problem Statement
 
-## Features
+Finding relevant government benefits and understanding eligibility requirements can be difficult, especially for people who face language barriers or have difficulty navigating online portals.
+
+VoicePath aims to simplify this process through a conversational, voice-based interface.
+
+## ✨ Key Features
+
 - Voice-based interaction
-- Tamil and English support
+- Tamil and English language support
 - User profile input
-- Benefits matching
-- Simple user interface
-- FastAPI backend
+- Benefits matching based on user details
+- Simple and accessible interface
+- FastAPI backend integration
 
-## Technologies Used
+## 🛠️ Technologies Used
+
 - Python
 - FastAPI
 - HTML
@@ -21,36 +27,4 @@ Finding relevant government benefits and understanding eligibility requirements 
 - JavaScript
 - JSON
 
-## Target Region
-United Arab Emirates (UAE)
-
-## Project Structure
-- backend/
-- index.html
-- main.py
-- schemes.json
-- script.js
-- style.css
-
-## How to Run
-
-1. Clone the repository:
-   git clone https://github.com/Mownika235/VoicePath.git
-
-2. Install dependencies:
-   pip install -r backend/requirements.txt
-
-3. Start the application:
-   uvicorn main:app --reload
-
-4. Open:
-   http://127.0.0.1:8000
-
-## Development
-Developed independently as a solo project.
-
-## Project Status
-Prototype under development. UAE benefits information and eligibility rules require verification against official sources.
-
----
-VoicePath – Making benefits information easier to access through voice.
+## 📂 Project Structure
